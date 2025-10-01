@@ -137,3 +137,8 @@ This project uses the local Arduino IDE for compilation to ensure the correct li
 ## License
 
 This project is licensed under the MIT License.
+
+---
+## AI Use
+
+Code ENTIRELLY created with Gemini Pro. I did not put my hand on the code, just interacted with Gemini.
