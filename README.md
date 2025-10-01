@@ -14,6 +14,34 @@ A DIY smart thermostat built with a Wemos D1 Mini (ESP8266). It is controllable 
 * **Adjustable Parameters:** Setpoint, hysteresis, mode, and protection time can all be changed on the fly from the cloud dashboard.
 
 ---
+## Understanding the LED Display
+
+The 8-digit 7-segment display provides a real-time dashboard of the thermostat's status. The layout is as follows:
+
+**[ M. | SSS |   | TTT ]**
+
+
+
+Here is a breakdown of each section, from left to right:
+
+* **Character 1: Mode & Protection (M.)**
+    * The letter indicates the operating mode:
+        * **H** = **H**eating Mode
+        * **C** = **C**ooling Mode
+    * The decimal point (`.`) indicates the **compressor protection** status:
+        * **Decimal Point ON:** Protection is **active**. The relay is locked and will not change state.
+        * **Decimal Point OFF:** Protection is **inactive**. It is safe for the relay to change state.
+
+* **Characters 2-4: Setpoint (SSS)**
+    * This 3-digit block shows the target temperature (**S**etpoint). It uses a compact format to display positive, negative, and decimal values.
+
+* **Character 5: Separator ( )**
+    * This is always a blank space to visually separate the setpoint and the current temperature.
+
+* **Characters 6-8: Current Temperature (TTT)**
+    * This 3-digit block shows the live **T**emperature reading from the sensor.
+
+---
 ## Hardware Required
 
 * Wemos D1 Mini (or any similar ESP8266 board)
@@ -108,4 +136,4 @@ This project uses the local Arduino IDE for compilation to ensure the correct li
 ---
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License.
