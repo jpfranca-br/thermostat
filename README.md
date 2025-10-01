@@ -2,7 +2,8 @@
 
 A DIY smart thermostat built with a Wemos D1 Mini (ESP8266). It is controllable via the Arduino Cloud, features a local 8-digit LED display for at-a-glance information, and includes critical safety features for controlling appliances like refrigerators.
 
-![pic1](https://github.com/user-attachments/assets/ba0a363d-4d65-4676-88a3-541744922514)
+<img width="509" height="490" alt="pic1-removebg-preview" src="https://github.com/user-attachments/assets/20df1cfc-23a6-48fe-948f-d047e9c85761" />
+
 
 ## Features
 
@@ -142,3 +143,8 @@ This project is licensed under the MIT License.
 ## AI Use
 
 Code ENTIRELLY created with Gemini Pro. I did not put my hand on the code, just interacted with Gemini.
+
+---
+## Next Steps
+
+Reduce footprint - create a "slim" version with all componentes soldered into board.
