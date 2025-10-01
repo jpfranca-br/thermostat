@@ -4,6 +4,8 @@ A DIY smart thermostat built with a Wemos D1 Mini (ESP8266). It is controllable 
 
 <img width="509" height="490" alt="pic1-removebg-preview" src="https://github.com/user-attachments/assets/20df1cfc-23a6-48fe-948f-d047e9c85761" />
 
+<img width="406" height="729" alt="dashboard" src="https://github.com/user-attachments/assets/7195a3ef-7a81-4d89-805a-de35f40fc54b" />
+
 
 ## Features
 
